@@ -239,6 +239,7 @@ visibility: hidden;
 
 header {
     background-color: transparent;
+        z-index: 9999999;
 }
 
 
@@ -636,7 +637,7 @@ border-radius: 20px;
 .headingp{
 font-size: 2.5rem;
     text-transform: capitalize;
-    margin-top: -5%;
+    margin-top: 0%;
     color: #145a92;
     width: 100%;
     position: absolute;
@@ -1148,8 +1149,44 @@ visibility: visible;
 }
 
 
+#map{
+    border-radius: 10px;
+    height: 300px;
+    width: 390px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -9%;
+    margin-top: -5%;
+}
 
+.mapcap{
+    margin-top: -10.5%;
+    position: absolute;
+    white-space: nowrap;
+    margin-left: 8.5%;
+}
 
+.mapcap h4{
+font-weight: 100;
+    font-size: 12px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.contactinfo span img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    transition: all .3s linear;
+}
+
+.contactinfo span img:hover{
+    transform: scale(1.4);
+}
+
+.contactinfo .ul li{
+    margin-top: 5px;
+}
 .bluediagrp{
 margin-top: -88%;
     position: absolute;
@@ -1183,9 +1220,85 @@ margin-left: 0rem;
     margin-top: 1rem;
 }
 
+h4 .concon {
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    position: absolute;
+    transition: all .3s linear;
+}
+
+h4 .concon:hover{
+    transform: scale(1.4);
+}
+a.opengmail {
+height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    position: absolute;
+    transition: all .3s linear;
+    color: white;
+    font-size: 13px;
+    margin-left: 18.5%;
+    font-weight: 600;
+    margin-top: -5%;
+}
+
+a.opengmail:hover{
+    transform: scale(1.1);
+}
+
+a.openfb {
+height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    position: absolute;
+    transition: all .3s linear;
+    color: white;
+    font-size: 13px;
+    margin-left: 18.5%;
+    font-weight: 600;
+    margin-top: 2%;
+}
+
+a.openfb:hover{
+    transform: scale(1.1);
+}
+
+a.openig {
+height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    position: absolute;
+    transition: all .3s linear;
+    color: white;
+    font-size: 13px;
+    margin-left: 18.5%;
+    font-weight: 600;
+    margin-top: 11%;
+}
+
+a.openig:hover{
+    transform: scale(1.1);
+}
 
 
 
+
+
+.emailcon{
+    position: absolute;
+    margin-top: -10%;
+}
+
+
+.fbcon{
+    margin-top: -4%;
+}
+
+.tiktokcon{
+    margin-top: 6%;
+}
 
 .card .media-icons{
   position: absolute;
@@ -1297,7 +1410,7 @@ section .card .image img{
 
 }
 
-a.aboutMe1, .aboutMe2, .aboutMe3, .aboutMe4 {
+a.aboutMe1, .aboutMe2, .aboutMe3, .aboutMe4, .aboutMe5 {
     background-image: linear-gradient(to right, #145a92 45%,#2196f3);
     outline: none;
     border: none;
@@ -1440,6 +1553,7 @@ width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 5%;
 }
 
 
@@ -1488,6 +1602,11 @@ position: absolute;
     opacity: 24%;
 }
 
+.blobig2{
+display: none;
+}
+
+
 .blobprice{
     position: absolute;
     width: 78%;
@@ -1506,6 +1625,12 @@ position: absolute;
     z-index: 0;
     margin-top: -14%;
     opacity: 85%;
+}
+
+
+
+.blobsmall2{
+ display: block;
 }
 
 .containerservice .boxservice .icon img{
@@ -1560,7 +1685,7 @@ position: absolute;
 
 .containerservice .boxservice:nth-child(1) .icon{
     box-shadow: 0 0 0 500 #d6ebee;
-    background: #d6ebee;
+    background: #d6ebbee;
 }
 
 .containerservice .boxservice:nth-child(1):hover .icon{
@@ -1573,26 +1698,26 @@ position: absolute;
 }
 
 .containerservice .boxservice:nth-child(2):hover .icon{
-        box-shadow: 0 0 0 500px #23e629;
+        box-shadow: 0 0 0 500px rgb(239, 98, 159);
 }
 
 .containerservice .boxservice:nth-child(3) .icon{
     box-shadow: 0 0 0 500 #2196f3;
-    background: #2196f3;
+    background: rgb( 249,231, 103);
 }
 
 .containerservice .boxservice:nth-child(3):hover .icon{
-        box-shadow: 0 0 0 500px #2196f3;
+        box-shadow: 0 0 0 500px rgb(234, 198, 26);
 }
 
 
 .containerservice .boxservice:nth-child(4) .icon{
-    box-shadow: 0 0 0 00px #D354AD;
-    background: #D354AD;
+    box-shadow: 0 0 0 00px rgb(53, 179, 209);
+    background: rgb(53, 179, 209);
 }
 
 .containerservice .boxservice:nth-child(4):hover .icon{
-        box-shadow: 0 0 0 500px #D354AD;
+        box-shadow: 0 0 0 500px #2196f3;
 }
 
 
@@ -1941,8 +2066,9 @@ section#contact::before{
     z-index: 0;
     margin-top: -5%;
     padding-top: 9%;
-    left: -68px;
+padding-right: 4%;
     background: transparent;
+
 }
 
 section .containercontact{
@@ -1951,8 +2077,7 @@ section .containercontact{
     min-height: 550px;
     display: flex;
     z-index: 1000;
-    overflow: hidden;
-    left: -3%;
+    left: 3%;
 }
 
 section .containercontact .contactinfo{
@@ -1978,7 +2103,7 @@ section .containercontact .contactinfo h2{
 section .containercontact .contactinfo .info{
     position: relative;
     margin: 20px 0;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 section .containercontact .contactinfo .info li{
@@ -1990,6 +2115,12 @@ section .containercontact .contactinfo .info li{
     align-items: flex-start;
 }
 
+ h4.concon{
+    margin-left: 10%;
+    color: white;
+    margin-top: 5%;
+    padding-top: -5%;
+}
 
 section .containercontact .contactinfo .info li span:nth-child(1){
     width: 30px;
@@ -2038,19 +2169,7 @@ section .containercontact .contactinfo .sci li:hover a img{
     opacity: 1;
 }
 
-section .containercontact .contactForm{
-    position: absolute;
-    padding: 50px 50px;
-    background: #fff;
-    margin-left: 350px;
-    padding-left: 50px;
-    width: calc(100% - 395px);
-    height: 80%;
-    margin-top: 40px;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.25);
-     border-top: 1px solid rgb(0 0 0 / 25%);
-border-radius: 20px;
-}
+
 
 
 section .containercontact .contactForm h2{
@@ -2301,18 +2420,18 @@ top: 10%;
 
 
 section #book1.contactForm {
-    z-index: 100000;
+z-index: 100000;
     padding: 50px 50px;
-background: white;
-padding-left: 50px;
-    width: 100%;
+    background: transparent;
+    padding-left: 50px;
+    width: 98%;
     height: 585px;
     box-shadow: 0 0.5rem 1rem rgb(0 0 5 / 25%);
     border-top: 1px solid rgb(0 0 0 / 25%);
     position: relative;
     justify-content: left;
-border-radius: 15px;
-
+    border-radius: 15px;
+    margin-left: 1%;
 
 }
 
@@ -2438,7 +2557,7 @@ footer{
 
 #fut{
     width: 100%;
-    height: 50vh;
+    height: 37vh;
 }
 
 
@@ -2518,11 +2637,15 @@ margin-top: 0%;
 
 
 .logof h4{
- color: white;
+color: white;
     font-weight: 700;
     padding-top: 5px;
     letter-spacing: 1px;
     padding: 7px;
+    position: absolute;
+    margin-left: 52%;
+    margin-top: -0.5%;
+    font-size: 13px;
 }
 
 
@@ -2589,10 +2712,10 @@ margin-top: -30%;
 }
 
 footer .logof{
-    font-size: 2rem;
+font-size: 2rem;
     color: white;
-    margin-left: 7%;
-    margin-top: 11%;
+    margin-left: -15%;
+    margin-top: 11.5%;
     margin-right: 5%;
 }
 
@@ -2612,6 +2735,7 @@ font-size: 20px;
 
 img#nf{
     height: 70px;
+    margin-top: 10%;
 }
 
 footer p{
@@ -2621,10 +2745,11 @@ footer p{
 }
 
 .iconf{
-    padding: 5px;
-    margin-left: -24%;
+padding: 5px;
+    margin-left: 52%;
     display: flex;
-    margin-top: -5%;
+    margin-top: -0.5%;
+    position: absolute;
 }
 .iconf img{
     height: 40px;
@@ -2633,6 +2758,82 @@ footer p{
 }
 
 
+a#btnhome.fade-inbook.btn {
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid white;
+    top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    margin-top: 0%;
+    margin-left: 22%;
+    animation: heart 5s linear infinite;
+}
+
+a#btnhomefoot.fade-inbook.btn {
+    font-size: 10px;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid white;
+    top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    margin-top: 0%;
+    margin-left: 238%;
+    animation: heart 5s linear infinite;
+    white-space: nowrap;
+    margin-top: 77%;
+    position: relative;
+}
+
+
+@keyframes heart{
+0%{
+    transform:  scale(1.07);
+}
+
+80%{
+    transform: scale(1.0);
+}
+
+100%{
+    transform:  scale(0.8);
+}
+}
+
+h1.emailfooter {
+    font-size: 15px;
+    margin-top: 69%;
+    margin-left: 237%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.coneng{
+margin-top: 13%;
+    color: white;
+    margin-left: 52%;
+    position: absolute;
+    font-size: 8px;
+}
+
+.confin{
+color: white;
+    margin-left: 62%;
+    position: absolute;
+    font-size: 8px;
+    padding-top: 18%;
+}
 
 
 
@@ -2696,7 +2897,7 @@ border-radius: 15px;
 .headngform{
     width: 350px;
     height: 10%;
-    background: skyblue;
+    background: transparent;
     position: absolute;
     z-index: 100000000;
         padding-left: 50px;
@@ -2704,6 +2905,7 @@ border-radius: 15px;
         border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-top: 1px solid rgb(0 0 0 / 25%);
+    border: none;
 }
 
 
@@ -2743,7 +2945,7 @@ color: white;
 
 
 .form-group.mb-3{
-    margin-top: -6%;
+    margin-top: -4%;
 }
 
 input{
@@ -2817,6 +3019,44 @@ input#checkbox{
 
 
 
+    section .containercontact .contactForm {
+    position: absolute;
+    padding: 50px 50px;
+    background: #fff;
+    margin-left: 431px;
+    padding-left: 50px;
+    width: 430px;
+    height: 63.5%;
+    margin-top: 8%;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 25%);
+    border-top: 1px solid rgb(0 0 0 / 25%);
+    border-radius: 20px;
+
+}
+
+ .fbembed{
+    display: none;
+}
+
+.postsafb{
+    display: none;
+}
+
+img.footfb{
+        transition: all .3s linear;
+}
+
+img.footphone{
+        transition: all .3s linear;
+}
+
+img.footig{
+        transition: all .3s linear;
+}
+
+img.footig:hover, img.footphone:hover, img.footfb:hover{
+    transform: scale(1.4);
+}
 
 
 
@@ -2825,12 +3065,29 @@ input#checkbox{
 
 
 
-/* media queries  */
 
-@media (max-width:1412px){
+
+
+
+
+
+
+@media/* media queries  */
+ (max-width:1412px){
     
+ .fb-post{
+    visibility: visible;
+    margin-top: 50%;
+}
     html{
         font-size: 55%;
+        overflow-x: hidden;
+    }
+
+    .postsafb{
+    margin-top: 45%;
+    visibility: visible;
+    margin-left: 5%;
     }
 
 .headingppp {
@@ -2847,6 +3104,7 @@ input#checkbox{
     
     html{
         font-size: 55%;
+               overflow-x: hidden;
     }
 .headingppp {
     margin-left: 11px;
@@ -2878,7 +3136,7 @@ header .navbar a.active{
 
 .alertbelow{
     color: white;
-    font-size: 11px;
+    font-size: 13px;
     z-index: 999999999;
     position: absolute;
     margin-top: 71%;
@@ -2901,7 +3159,7 @@ position: absolute;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     background: rgba(255, 255, 255, 0.2);
     border-radius: 100%;
-    padding: 79px;
+    padding: 91px;
     position: absolute;
     z-index: 999;
     animation: fadeIn ease 4s;
@@ -2912,7 +3170,7 @@ position: absolute;
     -ms-animation: fadeIn ease 4s;
     animation-iteration-count: infinite;
     margin-top: -35%;
-    margin-left: 61%;
+    margin-left: 57%;
 }
 
 
@@ -3022,6 +3280,20 @@ position: absolute;
 
 
 
+    section .containercontact .contactForm {
+    position: absolute;
+    padding: 50px 50px;
+    background: #fff;
+    margin-left: 425px;
+    padding-left: 50px;
+    width: 430px;
+    height: 63.5%;
+    margin-top: 15%;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 25%);
+    border-top: 1px solid rgb(0 0 0 / 25%);
+    border-radius: 20px;
+}
+
 
 
 
@@ -3040,6 +3312,9 @@ position: absolute;
 
 @media (max-width:991px){
 
+header img{
+    margi
+}
 
 .home .content{
 
@@ -3059,7 +3334,9 @@ position: absolute;
 }
 
 
-
+.contactcontact.contactform{
+    margin-top: 5%;
+}
     
     .home .fade-in img{
 width: 68px;
@@ -3316,11 +3593,291 @@ visibility: hidden;
 
 
 @media (max-width: 810px){
+header img {
+    transform: scaleY(1);
+    left: 7.8%;
+    top: 2px;
+}
+
+body{
+overflow-x: hidden;
+margin: 0;
+padding: 0;
+}
+
 .btn1 {
     margin-top: 10%;
     align-items: center;
    justify-content: center;
 }
+
+.card .card-content {
+    height: 590px;
+    top: -6%;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    width: 99%;
+    left: 1.5px;
+}
+.blobig2{
+position: absolute;
+    width: 78%;
+    margin-left: -38%;
+    z-index: 0;
+    margin-top: 53%;
+    opacity: 24%;
+    display: block;
+}
+
+.blobsmall2 {
+    position: absolute;
+    width: 26%;
+    margin-left: 78%;
+    z-index: 0;
+    margin-top: 89%;
+    opacity: 85%;
+    display: block;
+}
+
+.fbembed{
+    padding-top: 66%;
+    margin-left: 5%;
+    position: absolute;
+    margin-top: -9%;
+}
+
+.postsafb {
+    margin-left: 5%;
+    margin-top: 45%;
+}
+
+ .fbembed{
+    display: block;
+}
+
+.postsafb{
+    display: block;
+}
+
+.logof h4 {
+    color: white;
+    font-weight: 700;
+    padding-top: 5px;
+    letter-spacing: 1px;
+    padding: 6px;
+    font-size: 14px;
+}
+
+
+a#btnhomefoot.fade-inbook.btn {
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid white;
+    top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+        margin-top: 15%;
+    margin-left: 22%;
+    animation: heart 5s linear infinite;
+}
+
+@keyframes heart{
+0%{
+    transform:  scale(1.07);
+}
+
+80%{
+    transform: scale(1.0);
+}
+
+100%{
+    transform:  scale(0.8);
+}
+}
+
+.emailfooter{
+    color: white;
+    position: relative;
+}
+
+h1.emailfooter {
+font-size: 19px;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 18%;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.coneng{
+        margin-top: 36%;
+    color: white;
+    margin-left: 25%;
+    position: absolute;
+    font-size: 8px;
+    white-space: nowrap;
+}
+
+.confin{
+    padding-top: 46%;
+    margin-left: 25%;
+    white-space: nowrap;
+}
+
+
+.contactfooter{
+    color: white;
+    position: relative;
+}
+
+h1.contactfooter{
+    font-size: 19px;
+    position: absolute;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+    margin-left: 31%;
+    margin-top: 21%;
+}
+
+
+img.footfb{
+    height: 50px;
+        transition: all .3s linear;
+}
+
+img.footphone{
+    height: 50px;
+    margin-top: 2px;
+    margin-left: -10px;
+        transition: all .3s linear;
+}
+
+img.footig{
+ height: 50px;
+    margin-top: 2px;
+    margin-left: -10px;
+        transition: all .3s linear;
+}
+
+img.footig:hover, img.footphone:hover, img.footfb:hover{
+    transform: scale(1.4);
+}
+footer .logof {
+    font-size: 2rem;
+    color: white;
+    margin-left: 7%;
+    margin-top: 6%;
+    margin-right: 5%;
+}
+
+.headfoot h3 {
+    margin-top: 35%;
+    margin-left: 12%;
+    font-size: 20px;
+}
+
+.down3 {
+    margin-top: -8%;
+    display: flex;
+    position: absolute;
+    margin-left: 19%;
+    flex-direction: row;
+    display: none;
+}
+
+.down2 {
+    display: flex;
+    position: absolute;
+    margin-left: -8%;
+    margin-top: -14px;
+    flex-direction: row;
+    margin-left: 19%;
+    display: none;
+}
+
+.newsletter{
+    display: none;
+}
+
+.newsletter h2 {
+    color: white;
+    font-size: 20px;
+    margin-top: -3%;
+    margin-left: 9%;
+}
+
+.inputBoxnews input {
+    background: white;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    width: 84%;
+    margin-left: 9%;
+}
+
+.logo{
+    margin-top: 50%;
+    position: absolute;
+    margin-left: 18.5%;
+}
+
+.imgnf{
+     margin-top: 1%;
+    padding-top: 4%;
+    top: 34px;
+    position: absolute;
+    margin-left: 31%;
+}
+
+footer p {
+    font-size: 10px;
+    padding-top: 57%;
+    letter-spacing: 1px;
+    position: absolute;
+    margin-left: 19%;
+}
+.custom-shape-divider-top-1657360494{
+    visibility: hidden;
+}
+
+
+
+img#nf {
+    height: 116px;
+    position: relative;
+    margin-top: 275%;
+    margin-left: -8%;
+}
+
+.iconf {
+    padding: 5px;
+    margin-left: 36.5%;
+    display: flex;
+    margin-top: 54%;
+    position: absolute;
+}
+
+
+#fut {
+    width: 100%;
+    height: 50vh;
+    margin-top: 10%;
+}
+
+#change{
+margin-left: -18.7%;
+}
+
 
 .card1{
   position: relative;
@@ -3557,7 +4114,7 @@ h1{
 }
 
 section .containercon .contactinfo{
-    visibility: hidden;
+
     
 }
 
@@ -3640,8 +4197,11 @@ padding-bottom: 8%;
 
 
 section .containercontact .contactinfo {
-visibility: hidden;
-
+width: 350px;
+    margin-left: 32%;
+    margin-top: 0;
+    position: absolute;
+    z-index: 9999999999;
 }
 .contactinfo{
     margin-top: 15%;
@@ -3721,6 +4281,27 @@ border: 1px solid #bababa;
     align-items: center;
 }
 
+.alert-danger{
+    width: 365px;
+    margin-left: -14%;
+    height: 591px;
+    font-size: 4rem;
+    padding: 20%;
+    text-align: left;
+    border-radius: 15px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: -22%;
+    border-radius: 20px; 
+}
+
+.alert-danger h1{
+    color: whitesmoke;
+    white-space: nowrap;
+    margin-left: -7%;
+    position: absolute;
+}
 
 
 
@@ -3791,11 +4372,10 @@ position: fixed;
 }
 
 .headngform{
-border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-top: 1px solid rgb(0 0 0 / 25%);
-    height: 7%;
-    margin-top: 0%;
+    background: transparent;
+    border: none;
+    margin-top: 1%;
+    margin-left: 1%;
 }
 
 
@@ -3932,6 +4512,34 @@ section #book1.contactForm {
 }
 
 
+section .containercontact .contactForm{
+    height: 100%;
+    position: relative;
+    width: 32%;
+    background: white;
+    color: white;
+    padding-bottom: 0%;
+    top: 200px;
+    margin-left: 22.5%;
+
+
+}
+
+.fb-page{
+    position: absolute;
+    border-radius: 20px;
+
+}
+
+.fb-page1{
+
+}
+
+iframe .fbposts{
+    visibility: visible;
+}
+
+
 }
 
 
@@ -4040,6 +4648,52 @@ display: none;
     .newsletter p{
         width:auto;
     }
+
+
+    section .containercontact .contactinfo {
+margin-right: 5%;
+}
+
+footer{
+    margin-top: 0%;
+    flex-direction: column;
+    display: flex;
+}
+
+
+#contactcontact .contactForm{
+    width: 50px;
+}
+
+.iframe{
+    margin-top: 5%;
+}
+
+
+#map{
+        border-radius: 10px;
+    height: 300px;
+    width: 312px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -11%;
+    margin-top: -10%;
+    margin-bottom: 5%;
+}
+
+.mapcap{
+    margin-top: -14%;
+    position: absolute;
+    white-space: nowrap;
+    margin-left: -6%;
+}
+
+.mapcap h4 {
+    font-weight: 100;
+    font-size: 12px;
+    margin-left: 14%;
+    margin-top: 2%;
+}
 
 }
 
@@ -4258,7 +4912,6 @@ h1{
 }
 
 section .containercon .contactinfo{
-    visibility: hidden;
     
 }
 
@@ -4321,27 +4974,25 @@ margin-left: -3%;
 margin-top: 120%;
 padding-top: 10%;
 top: 300px;
-left: 20ppx;
 
     }
 
     section .containercontact .contactForm {
     height: 100%;
     position: relative;
-    width: 33%;
-    background: linear-gradient(to left, #6595E6, #1B4A9B);
-color: white;
-left: 9.5%;
-justify-content: center;
-border-radius: 15px;
-padding-bottom: 8%;
+    width: 32%;
+    background: white;
+    color: white;
+    /* left: 9.5%; */
+    justify-content: center;
+    border-radius: 15px;
+    z-index: 999999999999999999999999;
 }
 
 
 
 
 section .containercontact .contactinfo {
-visibility: hidden;
 
 }
 .contactinfo{
@@ -4827,6 +5478,8 @@ font-size: 15px;
     overflow: visible;
     margin-left: 2%;
     z-index: 9;
+    margin-top: -5%;
+
 }
 
 .headingppp{
@@ -4950,7 +5603,6 @@ position: relative;
 }
 
 section .containercon .contactinfo{
-    visibility: hidden;
     
 }
 
@@ -5004,36 +5656,22 @@ section .containercontact{
 z-index: -1;
 top: -100px;
 margin-top: 10%;
-margin-left: -3%;
+margin-left: 3%;
 }
 
 
 #contact{
-
-margin-top: 120%;
-padding-top: 10%;
-top: 300px;
-left: 20ppx;
-
+    margin-top: -118%;
+    padding-top: 10%;
+    top: 300px;
+margin-left: 20px;
     }
 
-    section .containercontact .contactForm {
-    height: 100%;
-    position: relative;
-    width: 33%;
-    background: linear-gradient(to left, #6595E6, #1B4A9B);
-color: white;
-left: 9.5%;
-justify-content: center;
-border-radius: 15px;
-padding-bottom: 8%;
-}
 
 
 
 
 section .containercontact .contactinfo {
-visibility: hidden;
 
 }
 .contactinfo{
@@ -5109,7 +5747,7 @@ width: 367px;
     border-radius: 15px;
     display: inline-block;
     align-items: center;
-    margin-top: -19%;
+    margin-top: -22%;
     padding-top: 65%;
     padding-left: 1%;
     justify-content: center;
@@ -5635,7 +6273,6 @@ h1{
 }
 
 section .containercon .contactinfo{
-    visibility: hidden;
     
 }
 
@@ -5698,7 +6335,7 @@ margin-left: -3%;
 margin-top: 120%;
 padding-top: 10%;
 top: 300px;
-left: 20ppx;
+margin-left: 20ppx;
 
     }
 
@@ -5718,9 +6355,10 @@ padding-bottom: 8%;
 
 
 section .containercontact .contactinfo {
-visibility: hidden;
 
 }
+
+
 .contactinfo{
     margin-top: 15%;
 }
@@ -6229,7 +6867,6 @@ h1{
 }
 
 section .containercon .contactinfo{
-    visibility: hidden;
     
 }
 
@@ -6292,7 +6929,7 @@ margin-left: -3%;
 margin-top: 120%;
 padding-top: 10%;
 top: 300px;
-left: 20ppx;
+margin-left: 20ppx;
 
     }
 
@@ -6312,7 +6949,6 @@ padding-bottom: 8%;
 
 
 section .containercontact .contactinfo {
-visibility: hidden;
 
 }
 .contactinfo{
@@ -6796,7 +7432,6 @@ h1{
 }
 
 section .containercon .contactinfo{
-    visibility: hidden;
     
 }
 
@@ -6859,7 +7494,7 @@ margin-left: -3%;
 margin-top: 120%;
 padding-top: 10%;
 top: 300px;
-left: 20ppx;
+margin-left: 20ppx;
 
     }
 
@@ -6879,7 +7514,6 @@ padding-bottom: 8%;
 
 
 section .containercontact .contactinfo {
-visibility: hidden;
 
 }
 .contactinfo{

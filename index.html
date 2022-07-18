@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1">
     <title>Precise N Systematic</title>
 
     <!-- font awesome cdn link  -->
@@ -22,6 +22,10 @@
 </head>
 
 <body>
+
+
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="AEGVQB0z"></script>
+
 
 
   <!-- Messenger Chat Plugin Code -->
@@ -472,6 +476,8 @@
 
 </div>
 
+
+
   <div class="containerservice" >
 
 
@@ -528,7 +534,7 @@
         they are usable and easy to maintain.</p>
       </div>
     </div>
-
+<!--
         <div class="boxservice">
       <div class="icon">
         <img src="laundry.jpg">
@@ -538,14 +544,14 @@
         <p>Before doing the laundry, we first sort the clothes, delicately wash them 
         with our gentle cleaning agents depending on the care the clothe requires, and fold them accordingly.</p>
       </div>
-    </div>
+    </div> -->
 
         <div class="boxservice">
       <div class="icon">
         <img src="carrent.jpg">
       </div>
       <div class="contentservice">
-        <h3>Car Cleaning</h3>
+        <h3>Touring Caravan</h3>
         <p>We service any type of cars. You can choose whether from our services such as exterior wash, interior cleaning, carpet shampooing, and hand washing.</p>
       </div>
     </div>
@@ -730,7 +736,7 @@
 
 
 
-                  <div class="swiper-slide card">
+                 <!-- <div class="swiper-slide card">
           <div class="card-content">
             
                         <div class="pinkdiagrp">
@@ -754,7 +760,7 @@
                           <a href="#home"  style="background-image: linear-gradient(to right, #d660b5, #ef6298 );" class="aboutMe4">Book Now</a>
             </div>
           </div>
-        </div>
+        </div> --> 
 
 
                           <div class="swiper-slide card">
@@ -778,7 +784,8 @@
 
 
              <div class="button">
-              <button onclick="togglePopup()" style="background-image: linear-gradient(to left, #f9e867, #eac71a);" class="aboutMe5">Contact Us</button>
+                  <a href="#contact"  style="background-image: linear-gradient(to left, #f9e867, #eac71a);" class="aboutMe2">Book Now</a>
+                 <!--  <a onclick="togglePopup())" class="active"> -->
             </div>
           </div>
         </div>
@@ -1147,22 +1154,23 @@
     <div class="contactinfo">
       <div>
         <h2>Contact Us</h2>
-        <ul class="info">
+        <ul style="margin-bottom: 5px" class="info">
           <li>
-            <span><img src="email.png"></span>
-            <span>services@presystematic.com</span>
+            <span><img class="emailcon" src="email.png"></span>
+            <a class="opengmail" href="https://mail.google.com/mail/?view=cm&fs=1&to=services@presystematic.com" target="_blank" rel="noopener noreferrer">services@presystematic.com</a>
             </li>
+
             <li>
             <span><img src="phone.png"></span>
-            <span>044 988 2228</span>
+            <h4 class="concon">0440880888 (english) &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 0456012321 (finnish)</h4>
           </li>
             <li>
-            <span><img src="fb.png"></span>
-            <span>facebook.com/precisensystematic</span>
+            <span><img class="fbcon" src="fb.png"></span>
+           <a class="openfb" style="white-space: nowrap;" class="opengmail" href="https://fb.me/PreciseNSystematic" target="_blank" rel="noopener noreferrer">Precise N Systematic FB Page</a>
           </li>
             <li>
-            <span><img src="tiktok.png"></span>
-            <span>Precise N Systematic </span>
+            <span><img class="tiktokcon" src="tiktok.png"></span>
+             <a class="openig" style="white-space: nowrap;" class="opengmail" href="https://instagram.com/precisensystematic" target="_blank" rel="noopener noreferrer">Precise N Systematic IG</a>
             </li>
 
         </ul>
@@ -1170,83 +1178,42 @@
       
       </div>
 
+
+
+
     <div id="contactcontact" class="contactForm">
-           <h2>Send a Message</h2>
-      <div class="formBox">
-        <div class="inputBox w50">
-          <form name="google-sheet" method="POST">
-                    <div id="form_alerts"></div>
+<div class="mapcap"> <h4>See where our office is located on the map</h4> </div>
 
+<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126440.09240861206!2d24.82970393184952!3d60.31923564132178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469207b83a3845b5%3A0xe2b7cd7632a1804f!2sVantaa%2C%20Finland!5e0!3m2!1sen!2sph!4v1657353282694!5m2!1sen!2sph" width="430" height="385" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-                    <div class="form-group mb-3">
-                        <label for="name" class="form-label">Full Name</label>
-                        <input type="text" id="name" name="name" class="form-control" placeholder="" required>
-                    </div>
-
-
-
-
-                            <div class="form-group mb-3">
-                        <label for="email" class="form-label">Email Address</label>
-                        <input type="email" id="email" name="email" class="form-control" placeholder="" required>
-                    </div>
-
-
-                    <div class="form-group mb-3">
-                        <label for="number" class="form-label">Contact Number</label>
-                        <input type="number" id="number" name="number" class="form-control" placeholder="" required>
-                    </div>
-
-    </div>
-
-                    <div style="margin-top: -3%; " class="form-group mb-3 mb-4">
-                        <label for="service" class="form-label">Choose service:</label>
-                        <select type="service" id="service" name="service" class="form-control" placeholder="" required>
-                              <option value="none"></option>
-    <option value="Window Cleaning">Window Cleaning</option>
-    <option value="Home Cleaning">Home Cleaning</option>
-        <option value="Car Cleaning">Car Cleaning</option>
-    <option value="Gardening">Gardening</option>
-    <option value="Laundry">Laundry</option>
-                        </select>
-                   
-    <label for="message" class="form-label1"></label>
-
-
-   
-<div class="form-group mb-3">
-                        <label for="message" class="form-label"></label>
-                        <textarea type="message" id="message" name="message" class="form-control" placeholder="" required></textarea>
-                    </div>
-
-        <div class="inputBox w100">
-          <input type="submit" value="Send" id="send" onclick="message()">
-
-
-    
-        <div class="message">
-          <div class="success" id="success">
-            <img src="cirx.png">            
-          </div>
-          <div class="danger" id="danger">
-            Fields Can't be Empty!
-          </div>
-          
-        </div>
-    </div>
-
-
-      </div>
-    </div>
-</form>
   </div>
+
+
+
 </section>
 
-<footer>
 
 
 
-<div id="fut" style="position: relative; background: linear-gradient(to left, #6595E6 40%, #1B4A9B); height: 40vh">
+
+<div  class="fbembed">
+<div class="fb-page" data-href="https://www.facebook.com/PreciseNSystematic" data-tabs="timeline" data-width="370" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/PreciseNSystematic" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/PreciseNSystematic">Precise N Systematic</a></blockquote></div>
+</div>
+
+<div class="postsafb">
+<div class="fb-post" data-href="https://www.facebook.com/PreciseNSystematic/posts/pfbid0nJFNEPkT8e35myFysdZ9LKvaBosnQ4sXSkjyBxD9p75pRoMyrAnRG91VJkv36JKul" data-width="370" data-show-text="true"><blockquote cite="https://www.facebook.com/PreciseNSystematic/posts/101477302648355" class="fb-xfbml-parse-ignore"><p>📣 We can clean wherever you are in Finland! 🇫🇮
+
+Choose from our services and send us a message for prices and all other...</p>Posted by <a href="https://www.facebook.com/PreciseNSystematic/">Precise N Systematic</a> on&nbsp;<a href="https://www.facebook.com/PreciseNSystematic/posts/101477302648355">Friday, July 15, 2022</a></blockquote></div>
+
+</div>
+
+
+
+<div id="fut" style="position: relative; background: linear-gradient(to left, #6595E6 40%, #1B4A9B); ">
+
+
+
+
 
 
 
@@ -1259,13 +1226,28 @@
 </div>
 
 
+<div>
+ <a href="#home"  id="btnhomefoot" class="fade-inbook btn">Book a cleaning</a>
+</div>
+
+<div>
+  <h1 class="emailfooter">services@presystematic.com</h1>
+</div>
+
+<div class="coneng">
+  <h1 class="contactfooter">+0440880888 <i style="font-size: 10px; margin-top: 5px; position: absolute; margin-left: 1px;">  (EN) </i></h1>
+</div>
+
+ <div class="confin" style="margin-top: -5%;">
+  <h1 class="contactfooter">+0456012321 <i style="font-size: 10px; margin-top: 5px; position: absolute; margin-left: 1px;">  (FIN) </i> </h1>
+</div>
+
+
 <div class="logof">
         <a href="#" class="logo">
-  <span id="change"  style="color: white;"> <strong> Precise &nbsp &nbsp Systematic </strong></span>
+  <span id="change1"  style="color: white;"> <strong> Precise &nbsp &nbsp Systematic </strong></span>
 </a>
-<p>We do things precisely and systematically.</p>
-<p>A systematical partner for companies pursuing <br>
- the cleanest work environment.</p>
+<p>Ⓒ Copyright 2022. All rights reserved. </p>
 <div class="imgnf">
 <img style="height: 80px;"id="nf" href="#" src="NN.png">
 </div>
@@ -1273,22 +1255,18 @@
 
 </div>
 
-<div class="vtt"></div>
 
 <div class="logof">
 
 <div class="secondfooter">
 
 <div class="headfoot">
-  <h3>Follow our socials</h3>
 </div>
-
 <div class="down">
 <div class="iconf">
-<img src="fb.png">
-<img src="phone.png">
-<img src="email.png">
-<img src="tiktok.png">
+<img class="footfb" src="fb.png">
+<img class="footphone" src="email.png">
+<img class="footig" src="phone.png">
 
 </div>
 </div>
@@ -1303,38 +1281,10 @@
 
 
 
-<div class="logof">
-
-<div class="thirdfooter">
-
-<div class="headfoot2">
-  <h3>About Us</h3>
-</div>
-
-<div class="down3">
-  <h4>Home</h4>
-  <h4>Services</h4>
-  <h4>Pricing</h4>
-</div>
-<div class="down2">
-  <h4>Contact</h4>
-  <h4>Book Now</h4>
-</div>
-
-</div>
-</div>
 
 
-<div class="vt33">
-  
-</div>
 
-<div class="newsletter">
-  <h2>Subscribe to newsletter </h2>
-<div class="inputBoxnews">
-<input type="newsletter" placeholder="Your Email Here">  
-</div>
-</div>
+
 
 
 
@@ -1387,7 +1337,7 @@ observer.observe(document.getElementById('.fade-inbook'));
             e.preventDefault()
             fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => $("#form_alerts").html("<div class='bubbleup1' style='--i:0';> </div> <div class='bubbleup2' style='--i:0';> </div> <div class='alert alert-success'> We received your message, <br> we'll contact you soon. </div> <div class='alertbelow'> Please expect to receieve an email or call with your free quotation and confirmation today. Thank you! </div> <div class='bubbleup3' style='--i:0';> </div> <div class='bubbleup4' style='--i:0';> </div>"))
-            .catch(error => $("#form_alerts").html("<div class='alert alert-danger'>Contact message not sent.</div>"))
+            .catch(error => $("#form_alerts").html("<div class='alert alert-danger'><h1>Message not sent. <br> Please refresh.</div></h1>"))
         })
     </script>
 
