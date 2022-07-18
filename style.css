@@ -239,7 +239,6 @@ visibility: hidden;
 
 header {
     background-color: transparent;
-        z-index: 9999999;
 }
 
 
@@ -3312,9 +3311,6 @@ position: absolute;
 
 @media (max-width:991px){
 
-header img{
-    margi
-}
 
 .home .content{
 
@@ -3598,6 +3594,13 @@ header img {
     left: 7.8%;
     top: 2px;
 }
+header .logo {
+    top: 23%;
+    position: absolute;
+    font-size: 2rem;
+    color: #145a92;
+    margin-left: 75px;
+}
 
 body{
 overflow-x: hidden;
@@ -3875,7 +3878,7 @@ img#nf {
 }
 
 #change{
-margin-left: -18.7%;
+margin-left: -18%;
 }
 
 
