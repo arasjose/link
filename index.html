@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <title>Precise N Systematic</title>
 
     <!-- font awesome cdn link  -->
@@ -22,10 +22,6 @@
 </head>
 
 <body>
-
-
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="AEGVQB0z"></script>
-
 
 
   <!-- Messenger Chat Plugin Code -->
@@ -134,7 +130,7 @@
           cleanest work environment
         
 </p>
-        <a style="margin-left: 5%;"  id="btnhome" onclick="toggle()" onclick="click()" class="fade-inbook btn">Book a cleaning</a>
+        <a style="margin-left: 5%;"  id="btnhome" onclick="toggle()" onclick="click()" class="btn">Book a cleaning</a>
     </div>
 
 
@@ -207,6 +203,15 @@
     <option value="Gardening">Gardening</option>
     <option value="Laundry">Laundry</option>
                         </select>
+
+
+
+                        <div class="calendar">
+                          <label for="date" class="form-label"></label>
+                          <input type="date" id="date" name="date" placeholder="Choose preferred date" required>
+                        </div>
+
+
             
     <label for="message" class="form-label1">
   </label>
@@ -231,7 +236,7 @@
 
         <div class="inputBox w100">
 
-                  <input type="submit" value="Send" id="send" onclick="message()">
+                  <input type="submit" value="Send" id="send" class="#btn1" onclick="message()">
 
 
                 <input type="submit" id="btn5" class="btn1" value="Close" onclick="toggle()">
@@ -489,7 +494,7 @@
 
     <div class="boxservice active">
       <div class="icon">
-        <img src="homecleaning.jpg">
+        <img src="homecleans.jpg">
       </div>
       <div class="contentservice">
         <h3 class=cleaning>Home Cleaning</h3>
@@ -506,7 +511,7 @@
 
     <div class="boxservice ">
       <div class="icon">
-          <img src="windowcleaning.jpg">
+          <img src="windowcleans.jpg">
       </div>
       <div class="contentservice">
         <h3>Window Cleaning</h3>
@@ -525,7 +530,7 @@
 
     <div class="boxservice">
       <div class="icon">
-        <img src="gardening.jpg">
+        <img src="gardens.jpg">
       </div>
       <div class="contentservice">
         <h3>Gardening</h3>
@@ -548,7 +553,7 @@
 
         <div class="boxservice">
       <div class="icon">
-        <img src="carrent.jpg">
+        <img src="cars.jpg">
       </div>
       <div class="contentservice">
         <h3>Touring Caravan</h3>
@@ -664,33 +669,33 @@
               <span class="serve">Window Cleaning</span>
 
               <div class="pricehour">
-              <span class="price1">€ 36</span>
-              <span class="profession1">per hour</span>
+              <span class="price1"> <strong style="font-size: 15px; margin-top: 7px; position: absolute; margin-left:-5%">€</strong> 30</span>
+              <span class="profession1"><strong style="font-size: 10px; margin-top:-2px; position: absolute; white-space:nowrap;">per hour</strong></span>
             </div>
                            <span class="vat">24% vat included</span>
-              <span class="descrip">One time-cleaning</span>
+              <span class="descrip">3x a week / everyday cleaning</span>
 
             </div>
 
     <div class="name-profession1">
 
               <div class="pricehour2">
-              <span class="price2">€ 34</span>
-              <span class="profession1">per hour</span>
+              <span class="price2"><strong style="font-size: 15px; margin-top: 7px; position: absolute; margin-left:-5%">€</strong> 34</span>
+              <span class="profession1"><strong style="font-size: 10px; margin-top:-2px; position: absolute; white-space:nowrap;">per hour</strong></span>
             </div>
                            <span class="vat">24% vat included</span>
-              <span class="descrip">2 times a week </span>
+              <span class="descrip">2x a week cleaning </span>
 
             </div>
 
                <div class="name-profession1">
 
               <div class="pricehour3">
-              <span class="price3">€ 30</span>
-              <span class="profession1">per hour</span>
+              <span class="price3"><strong style="font-size: 15px; margin-top: 5px; position: absolute; margin-left:-5%">€</strong> 36</span>
+              <span class="profession1"><strong style="font-size: 10px; margin-top:-2px; position: absolute; white-space:nowrap;">per hour</strong></span>
             </div>
                            <span class="vat">24% vat included</span>
-              <span class="descrip">3 times a week/Everyday </span>
+              <span class="descrip">One time cleaning </span>
 
             </div>
 
@@ -736,8 +741,8 @@
 
 
 
-                 <!-- <div class="swiper-slide card">
-          <div class="card-content">
+                 <div style="visibility:hidden;" class="swiper-slide card">
+          <div  class="card-content">
             
                         <div class="pinkdiagrp">
 <div class="pinkdia1"><div class="fade-in1" style="position: absolute;"><img src="pinkdia.png"></div></div>
@@ -760,7 +765,7 @@
                           <a href="#home"  style="background-image: linear-gradient(to right, #d660b5, #ef6298 );" class="aboutMe4">Book Now</a>
             </div>
           </div>
-        </div> --> 
+        </div> 
 
 
                           <div class="swiper-slide card">
@@ -1153,7 +1158,7 @@
   <div class="containercontact">
     <div class="contactinfo">
       <div>
-        <h2>Contact Us</h2>
+        <h2>Say hello to us</h2>
         <ul style="margin-bottom: 5px" class="info">
           <li>
             <span><img class="emailcon" src="email.png"></span>
@@ -1162,11 +1167,11 @@
 
             <li>
             <span><img src="phone.png"></span>
-            <h4 class="concon">0440880888 (english) &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 0456012321 (finnish)</h4>
+            <h4 class="concon">0440880888 (english) <br> 0456012321 (finnish)</h4>
           </li>
             <li>
             <span><img class="fbcon" src="fb.png"></span>
-           <a class="openfb" style="white-space: nowrap;" class="opengmail" href="https://fb.me/PreciseNSystematic" target="_blank" rel="noopener noreferrer">Precise N Systematic FB Page</a>
+           <a class="openfb" style="white-space: nowrap;" class="opengmail" href="https://fb.me/PreciseNSystematic" target="_blank" rel="noopener noreferrer">Precise N Systematic FB</a>
           </li>
             <li>
             <span><img class="tiktokcon" src="tiktok.png"></span>
@@ -1337,7 +1342,7 @@ observer.observe(document.getElementById('.fade-inbook'));
             e.preventDefault()
             fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => $("#form_alerts").html("<div class='bubbleup1' style='--i:0';> </div> <div class='bubbleup2' style='--i:0';> </div> <div class='alert alert-success'> We received your message, <br> we'll contact you soon. </div> <div class='alertbelow'> Please expect to receieve an email or call with your free quotation and confirmation today. Thank you! </div> <div class='bubbleup3' style='--i:0';> </div> <div class='bubbleup4' style='--i:0';> </div>"))
-            .catch(error => $("#form_alerts").html("<div class='alert alert-danger'><h1>Message not sent. <br> Please refresh.</div></h1>"))
+            .catch(error => $("#form_alerts").html("<div class='alert alert-danger'><h1>Message not sent. <br> Please try again.</div></h1>"))
         })
     </script>
 
