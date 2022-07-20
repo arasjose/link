@@ -1495,7 +1495,7 @@ visibility: hidden;
   color: #145a92;
   transition: all 0.3s ease;
   position: absolute;
-  margin-top: -10%;
+  margin-top: -6%;
 }
 
 
@@ -3732,7 +3732,49 @@ visibility: hidden;
 
 
 
+@media (width: 1024px),
+@media (height:  768px){
+    .containerservice{
+        margin-left: 4%;
+    }
 
+    .sectionslid{
+        margin-left: -5%;
+    }
+
+    .card{
+        height: 485px;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+padding: 45%;
+padding-top: 8%;
+    }
+
+    section .containercontact{
+        left:   15%;
+    }
+
+    #serveee{
+        margin-top: 18%;
+    }
+
+    #pricing{
+        padding-top: 35%;
+        margin-top: 5%;
+    }
+
+    #contact{
+        margin-top: -10%;
+    }
+
+    #fut{
+        margin-top: 5%;
+        height: 30vh;
+    }
+
+
+}
 
 
 
@@ -3745,6 +3787,10 @@ header img {
     transform: scaleY(1);
     left: 7.8%;
     top: 2px;
+}
+
+.cardhid{
+    display: none;
 }
 header .logo {
     top: 23%;
@@ -6324,6 +6370,10 @@ section #book1.contactForm{
     padding-top: 50%;
 
 }
+
+.popop{
+    margin-top: 13%;
+}
 }
 
 
@@ -6454,6 +6504,10 @@ a#btnhomefoot.fade-inbook.btn {
     top: 12%;
 }
 
+.contactinfo{
+    margin-top: 30%;
+}
+
 }
 
 
@@ -6494,7 +6548,7 @@ h1.contactfooter{
 
 section #book1.contactForm{
     height: 532px;
-    margin-top: -18%;
+    margin-top: -49%;
 }
 
 .formBoxpop{
@@ -6571,12 +6625,13 @@ header img{
 
     header img{
         transform: scaleY(1) ;
-        left: 5.5%;
+        left: 5.3%;
         top: 0;
     }
 
 
-    .
+
+    
 .home .content h3{
     font-size: 25px;
 
@@ -6585,6 +6640,10 @@ header img{
 
 section.sectionslid{
     margin-left: 5%;
+}
+
+img#nf{
+    margin-top: 254%;
 }
 
 
@@ -6694,10 +6753,10 @@ font-size: 15px;
 }
 
 .headingppp{
-    margin-top: 42%;
+    margin-top: 0%;
     position: absolute;
     overflow: visible;
-    margin-left: 5%;
+    margin-left: 9%;
     z-index: 9;
     font-size: 2.5rem;
 }
@@ -6725,11 +6784,11 @@ section.serbisyo {
 }
 
 #pricing{
-        top: 900px;
-    padding-top: 50%;
+    padding-top: 20%;
     position: relative;
-    margin-top: -18%;
+    margin-top: 20%;
     background: transparent;
+    margin-left: -10%;
 }
 
 
@@ -6860,24 +6919,26 @@ margin-left: -3%;
 
 #contact{
 
-margin-top: 120%;
-padding-top: 10%;
+margin-top: -43%;
+padding-top: 47%;
 top: 300px;
-margin-left: 20ppx;
+margin-left: 11%;
 
     }
 
     section .containercontact .contactForm {
-    height: 100%;
-    position: relative;
-    width: 33%;
-    background: linear-gradient(to left, #6595E6, #1B4A9B);
+    height: 62%;
+    position: absolute;
+    width: 32%;
+    background: transparent;
 color: white;
 left: 9.5%;
 justify-content: center;
 border-radius: 15px;
 padding-bottom: 8%;
+margin-top: 15%;
 }
+
 
 
 
@@ -6888,7 +6949,7 @@ section .containercontact .contactinfo {
 
 
 .contactinfo{
-    margin-top: 15%;
+    margin-top: 44%;
 }
 
 section .containercontact .contactForm .formBox {
@@ -7073,7 +7134,7 @@ input#btn5.btn1{
     font-size: 15px;
     margin-top: 30%;
     position: relative;
-    padding-left: 35px;
+    padding-left: 13px;
 }
 
 
@@ -7137,21 +7198,45 @@ display: flex;
     position: relative;
     margin-top: 0;
 }
-
-section #book1.contactForm {
-    z-index: 100000;
-    padding: 85px 50px;
-    background: white;
-    padding-left: 50px;
-    width: 99%;
-    height: 590px;
-    box-shadow: 0 0.5rem 1rem rgb(0 0 5 / 25%);
-    border-top: 1px solid rgb(0 0 0 / 25%);
-    position: relative;
-    justify-content: left;
-    border-radius: 15px;
-    padding-top: 15%;
+section #book1.contactForm{
+    background: transparent;
+    height: 554px;
 }
+
+.headngform h2{
+    margin-top: 7%;
+}
+
+.formBoxpop{
+    margin-top: 4%;
+}
+
+.alert-success{
+margin-top: -15%;
+    height: 553px;
+    margin-left: -15%;
+    width: 329px;
+    padding-top: 54%;
+    padding-left: 0%;
+    font-size: 21px;
+    text-align: center;
+    white-space: nowrap;
+    padding-right: 1%;
+}
+
+.bubbleup1, .bubbleup2, .bubbleup3, .bubbleup4{
+    z-index: 99999;
+}
+
+.headingpp{
+    margin-top: -86%;
+}
+
+.headingp{
+    margin-left: 25%;
+}
+
+
 
 
 .checkbox p {
@@ -7779,7 +7864,7 @@ position: relative;
 
     header img{
     transform: scaleY(1);
-    left: 7.8%;
+    left: 5.8%;
     }
 
     a#btnhomefoot.fade-inbook.btn {
@@ -7792,9 +7877,9 @@ position: relative;
 }
 
 .card1{
-    height: 513px;
+    height: 479px;
     top: -19px;
-    margin-top: 20%;
+    margin-top: 16%;
 }
 
 .card1 .card-content1{
@@ -7937,7 +8022,7 @@ section.serbisyo {
 
 #pricing{
     top: 900px;
-    padding-top: 0%;
+    padding-top: 21%;
     position: relative;
     margin-top: -122%;
     background: transparent;
@@ -7973,7 +8058,7 @@ section.container{
 
 .container{
     position: relative;
-    margin-top: 25%;
+    margin-top: 40%;
     justify-content: center;
     align-items: center;
     margin-left: 0;
@@ -7981,7 +8066,7 @@ section.container{
 
 section.sectionslid{
     position: relative;
-    padding-top: 20%;
+    padding-top: 0%;
 }
 
 .headingpp h1{
@@ -8010,7 +8095,7 @@ h1{
 
 .card .card-content{
     margin-top: 25%;
-    height: 90%;
+    height: 85%;
 }
 
 section .containercon .contactinfo{
@@ -8073,8 +8158,8 @@ margin-left: -3%;
 
 #contact{
 
-margin-top: 120%;
-    padding-top: 82%;
+margin-top: 130%;
+    padding-top: 41%;
     top: 300px;
     margin-left: 11.5%;
 
@@ -8176,7 +8261,7 @@ border: 1px solid #bababa;
     display: inline-block;
     justify-content: center;
     align-items: center;
-    margin-top: -13%;
+    margin-top: -16%;
     padding-top: 55%;
     text-align: center;
 }
