@@ -2475,6 +2475,12 @@ position: absolute;
     margin-left: 74%;
 }
 
+.fbfbfb{
+    margin-top: 5%;
+    display: none;
+}
+
+
 
 .bubbleup4{
 position: absolute;
@@ -3755,6 +3761,11 @@ padding: 0;
 }
 .inputBox.w100{
     margin-top: -22%;
+}
+
+.fbfbfb{
+    margin-top: 5%;
+    display: block;
 }
 
 
@@ -5516,6 +5527,11 @@ visibility: visible;
     border: none;
 }
 
+.fbfbfb{
+    margin-top: 61%;
+    margin-left: 9%;
+}
+
 
 .popup .content{
     margin-top: -129%;
@@ -6184,6 +6200,37 @@ section #book1.contactForm {
 
 
 
+@media (max-width:414px){
+    section.sectionslid{
+        padding-top: 30%;
+    }
+
+    .card .card-content{
+        height: 535px;
+    }
+
+    .card1{
+        height: 535px;
+        margin-top: 12%;    }
+
+    #contact{
+        margin-top: -113;
+        padding-top: 37%;
+    }
+
+    .fbfbfb{
+        margin-top: 93%;
+        margin-left: -9%;
+    }
+
+    .contactinfo{
+        margin-top: -0.5%;
+    }
+
+    .alert-success{
+        padding-top: 55%;
+    }
+}
 
 
 
@@ -6195,6 +6242,22 @@ section #book1.contactForm {
         margin-top: 139%;
     }
 
+    h1.contactfooter{
+        margin-left: 20%;
+    }
+
+    #contact{
+        margin-top: -104%;
+    }
+
+section.sectionslid{
+    padding-top: 14%;
+    margin-left: 4%;
+}
+
+.fbfbfb{
+    margin-top: 83%;
+}
 .headingppp{
     margin-top: -8%;
 }
@@ -6281,6 +6344,12 @@ section #book1.contactForm{
     left: 10.2%;
     top: 0;
 }
+
+.fbfbfb{
+    margin-top: 71%;
+margin-left: 6%;
+}
+
 
 section#aboutus {
     padding-top: 35%;
@@ -6394,8 +6463,25 @@ a#btnhomefoot.fade-inbook.btn {
     margin-top: 115%;
 }
 
+.fbfbfb{
+    margin-top: 77%;
+    margin-left: 6%;
+}
+
 .headingppp {
     margin-top: 5%;
+}
+
+section .containercontact{
+    margin-top: -45%;
+}
+
+section.sectionslid{
+    margin-left: 1%;
+}
+
+h1.contactfooter{
+    margin-left: 20%;
 }
 
 #contact{
@@ -6456,6 +6542,18 @@ h1.emailfooter{
 
 a#btnhomefoot.fade-inbook.btn{
     margin-left: 19%;
+}
+
+#change{
+    margin-left: -20%;
+}
+
+header img{
+    left: 8.2%;
+}
+
+.card .card-content{
+    top: -5%;
 }
 }
 
@@ -7688,6 +7786,11 @@ position: relative;
     margin-left: 18%;
 }
 
+.fbfbfb{
+    margin-top: 106%;
+    margin-left: 3%;
+}
+
 .card1{
     height: 513px;
     top: -19px;
@@ -8405,6 +8508,12 @@ position: relative;
     a#btnhomefoot.fade-inbook.btn{
         margin-left: 14%;
     }
+
+    .fbfbfb{
+    margin-top: 119%;
+    margin-left: -3%;
+}
+
 }
 
 
@@ -8418,6 +8527,8 @@ position: relative;
         transform: scaleY(1) ;
         left: 2.8%;
     }
+
+
 
 
 
